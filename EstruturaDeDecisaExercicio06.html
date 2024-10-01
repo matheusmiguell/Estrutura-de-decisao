@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Estrutura decisao</h1>
+    <p> digite "S" para cadastrar um novo aluno</p>
+<script>
+     let opc = prompt("deseja cadastrar um aluno S ou N")
+
+     if (opc == "S") {
+           let nomeAluno = prompt("Digite o nom o Aluno<br>")
+           let AnoNasci = parseInt( prompt("Digite o ano de nascimento<br>"))
+           let sexo = prompt("digite o sexo<br>")
+           let idade = 2024 - AnoNasci
+           //retornar as info aluno
+           document.write("Aluno; "+nomeAluno+"<br>")
+           document.write("Sexo; "+sexo+"<br>")
+           document.write("Idade; "+idade+"<br>")
+
+     } else {
+        document.write("Obrigado volte sempre")
+     }
+
+
+
+    </script>
+</body>
+</html>
